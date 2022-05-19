@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades sobre Chuck Norris</title>
+
+    <script type="text/javascript" src="chuck.js"></script>
+    <style>
+        img {
+            width: 70%;
+            height: 100vh;
+            margin-left: -200px;
+            border-radius: 30% 70%;
+            margin-right: 30px;
+        }
+
+        body {
+            display: flex;
+            overflow: hidden;
+        }
+        .conteudo {
+            display: block;
+            align-self: center;
+        }
+
+        span {
+            color: #ff0000;
+        }
+
+        h1 {
+            color: #0000ff;
+            font-size: 3.2rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        .titulo {
+            color: #0000ff;
+        }
+
+        .curiosidade {
+            color: #ff0000;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: #0000ff;
+            color: #fff;
+            font-size: 1.1rem;
+        }
+
+        button:hover {
+            background-color: mediumslateblue;
+        }
+
+    </style>   
+
+</head>
+<body>
+    
+    <img src="chuck-norris.jpg">
+
+
+
+    <div class="conteudo">
+        <h1>Curiosidades <span>sobre</span> "Chuck Norris"</h1>
+        <h3 class="titulo">Título:</h3>
+        <p id="titulo"></p>
+
+        <h3 class="curiosidade">Curiosidade:</h3>
+        <p id="curiosidade"></p>
+
+
+        <button type="button" onclick="curiosidade_chuck()">Quero saber uma curiosidade</button>
+
+    </div>
+    
+</body>
+</html>
